@@ -1,8 +1,11 @@
 
+import Tech from "./tech"
+
 function App() {
   return (
-    <>
-     <h1>Start React with Tech Asish at Night</h1>
+    <> {/* ----> it is called fragment */}
+    <h1>Start React with Tech Asish at Night</h1>
+    <Tech/>  
     </>
   )
 }
